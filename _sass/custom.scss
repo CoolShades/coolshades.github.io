@@ -95,59 +95,44 @@
   }
 }
 
+/* Certification Badge */
 .certification-badge-link {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display: none; /* Hide the badge by default */
+  display: block; /* Ensure the badge is always visible */
   z-index: 1000; /* Ensure it's above other content */
 }
 
 .certification-badge {
-  width: 80px; /* Default size for the badge */
+  width: 100px; /* Default size for the badge */
   height: auto; /* Maintain aspect ratio */
 }
 
 /* Media query for screens wider than 1280px (wide) */
 @media screen and (min-width: 1280px) {
-  .certification-badge-link {
-    display: block; /* Show the badge */
-  }
-
   .certification-badge {
-    width: 100px; /* Adjust the width as needed for wide screens */
+    width: 110px; /* Adjust the width as needed for wide screens */
   }
 }
 
 /* Media query for screens between 1024px and 1279px (normal) */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .certification-badge-link {
-    display: block; /* Show the badge */
-  }
-
   .certification-badge {
-    width: 80px; /* Adjust the width as needed for normal screens */
+    width: 90px; /* Adjust the width as needed for normal screens */
   }
 }
 
 /* Media query for screens between 768px and 1023px (medium) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .certification-badge-link {
-    display: block; /* Show the badge */
-  }
-
   .certification-badge {
-    width: 60px; /* Adjust the width as needed for medium screens */
+    width: 80px; /* Adjust the width as needed for medium screens */
   }
 }
 
 /* Media query for screens less than 768px (short) */
 @media screen and (max-width: 767px) {
-  .certification-badge-link {
-    display: block; /* Show the badge */
-  }
-
   .certification-badge {
-    width: 40px; /* Adjust the width as needed for small screens */
+    width: 70px; /* Adjust the width as needed for small screens */
   }
 }
