@@ -13,14 +13,24 @@
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
+      <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">
+        {{ author.name }} <span class="not-bold">{{ author.nickname }}</span>
+      </a>
     </h3>
+    {% if author.degrees %}
+      <div class="author__degrees small-text">
+        {% for degree in author.degrees %}
+          <span class="degree"><em>{{ degree.title }}</em></span>{% if forloop.last == false %}<span class="separator">  </span>{% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
     {% if author.bio %}
       <div class="author__bio p-note" itemprop="description">
         {{ author.bio | markdownify }}
       </div>
     {% endif %}
   </div>
+  
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>

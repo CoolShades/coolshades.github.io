@@ -1,0 +1,96 @@
+.small-text {
+  font-size: 0.30em;
+  font-style: italic;
+}
+
+.not-bold {
+  font-weight: normal;
+  font-size: 0.6em;
+}
+
+.separator {
+  margin-right: 0.2em;
+}
+
+.author__bio {
+  margin-top: -10px !important;
+}
+
+/* Default styles for larger screens */
+.author__avatar {
+  width: 100px; /* Adjust this value as needed */
+  height: 100px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center align for large screens */
+  display: block;
+}
+
+.author-profile {
+  text-align: center; /* Center align the text for large screens */
+}
+
+/* Media query for screens wider than 1280px */
+@media screen and (min-width: 1280px) {
+  .author-profile {
+    display: flex;
+    flex-direction: column; /* Ensure elements are stacked vertically */
+    align-items: flex-start; /* Left align items */
+    text-align: left; /* Left align text */
+  }
+
+  .author__avatar {
+    width: 120px; /* Adjust this value to dynamically increase size */
+    height: 120px; /* Adjust this value to dynamically increase size */
+    margin-left: 30px; /* Left align the image */
+    margin-right: 120px; /* Micro-adjustment for margin */
+    float: left;
+  }
+
+  .author__name, .author__bio, .author__degrees {
+    text-align: left; /* Left align the text */
+    margin: 0;
+  }
+}
+
+/* Media query for medium screens */
+@media screen and (max-width: 1023px) {
+  .author__avatar {
+    width: 50px; /* Adjust the size for medium screens */
+    height: 50px; /* Adjust the size for medium screens */
+    float: left; /* Float left */
+    margin-right: 0px; /* Add space between image and text */
+    margin-top: 1px; /* Remove bottom margin */
+  }
+
+  .author-profile {
+    text-align: left; /* Left align the text */
+    display: block; /* Ensure block display */
+  }
+
+  .author__name, .author__bio {
+    display: block;
+    text-align: left;
+    margin: 0;
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+  .author__avatar {
+    width: 40px; /* Adjust the size for smaller screens */
+    height: 40px; /* Adjust the size for smaller screens */
+    float: left; /* Float left */
+    margin-right: 0px; /* Add space between image and text */
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+
+  .author-profile {
+    text-align: left; /* Left align the text */
+    display: block; /* Ensure block display */
+  }
+
+  .author__name, .author__bio {
+    display: block;
+    text-align: left;
+    margin: 0;
+  }
+}
