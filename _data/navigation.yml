@@ -2,8 +2,8 @@
 main:
   - title: "Publications"
     url: /publications/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Awards"
+    url: /awards/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
