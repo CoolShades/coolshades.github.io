@@ -66,7 +66,7 @@ author_profile: true
 
 **Winner for FaME award "Excellence in Teaching by a Medical Student”**  
 <span style="font-size:0.65em;"><i>(Faculty of Medical Education; The University of Dundee, March 2017)</i></span>  
-<span style="font-size:0.8em;">I was recently nominated for and won the above award due to my contributions as a peer mentor and the book I published on the Apple iBook Store.</span>
+<span style="font-size:0.8em;">I was recently nominated for and won the above award due to my contributions as a peer mentor and <a href="https://books.apple.com/gb/book/basics-of-the-ecg/id1118593363" target="_blank">the book I published on the Apple iBook Store</a>.</span>
 
 ---
 
