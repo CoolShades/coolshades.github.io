@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "About Me"
+title                    : "Dr U Bhalraam"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Dr U Bhalraam"
@@ -115,7 +115,8 @@ author:
   name             : "U Bhalraam"
   nickname         : "(Raam)"
   avatar           : "/assets/images/pic.jpg"
-  bio              : "Doctor & Data Scientist"
+  bio              : "Doctor & Data Scientist."
+  bio-extra: "Cardiologist <i>(in-training)</i> passionate about electrophysiology. 7 years of hands-on experience in statistics, research and tech innovation."
   degrees:
     - title: "MBChB"
     - title: "MRCP(Edin.)"
