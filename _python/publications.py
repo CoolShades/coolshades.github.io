@@ -74,7 +74,7 @@ with open('publications.md', 'w') as file:
         file.write(f"<span style='font-size: 0.55em;'>{creators_str}</span><br>")  # Adjust font size for authors
         file.write(f"<span style='font-size: 0.85em;'><i>{source_str}, {pub['year']}</i></span>\n")  # Journal name and year
 
-    file.write("<p style='font-size: 0.7em;'><br><br><i>This page was entirely programmatically generated using a Python script. The script retrieves publication data from PubMed using an RSS feed, processes it to extract relevant information such as title, authors, journal, and publication year, and formats it into markdown. Additionally, it retrieves the author's citation metrics from Google Scholar. The page content is dynamically created based on this data.</i></p>")
+    file.write("<p style='font-size: 0.7em;'><br><br><i>This page was entirely programmatically generated using a <a href='https://github.com/CoolShades/coolshades.github.io/blob/master/_python/publications.py'>Python script</a>. The script retrieves publication data from PubMed using an RSS feed, processes it to extract relevant information such as title, authors, journal, and publication year, and formats it into markdown. Additionally, it retrieves the author's citation metrics from Google Scholar. The page content is dynamically created based on this data.</i></p>")
     file.write(f"<p style='font-size: 0.7em;'><i>This page was last updated @ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</i></p>\n\n")
 
 print("Publications have been saved to publications.md")
