@@ -29,14 +29,13 @@ author_profile: true
   }
   .qualification .degree1 {
     font-size: 1.3em;
-    line-height: 1.5;
+    line-height: 1.3;
   }
 
   .qualification .degree2 {
     font-size: 1.2em;
     display: block;
     margin-top: -5px;
-    line-height: 1.2;
   }
 
   .qualification .extra {
