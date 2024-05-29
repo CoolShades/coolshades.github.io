@@ -36,7 +36,7 @@ author_profile: true
     font-size: 1.2em;
     display: block;
     margin-top: -5px;
-    line-height: 1.0;
+    line-height: 1.2;
   }
 
   .qualification .extra {
