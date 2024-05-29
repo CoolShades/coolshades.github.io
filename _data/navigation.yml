@@ -4,8 +4,8 @@ main:
     url: /publications/
   - title: "Awards"
     url: /awards/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Qualifications"
+    url: /qualifications/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
