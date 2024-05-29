@@ -65,7 +65,7 @@ author_profile: true
 @media screen and (max-width: 767px) {
   .qualification .degree2 {
     max-width: 90%;
-    font-size: 1.1em; /* Adjust this value if necessary */
+    font-size: 1.0em; /* Adjust this value if necessary */
     line-height: 1.5; /* Ensure the same line height is applied */
   }
 }
