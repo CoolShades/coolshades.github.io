@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Leadership Experience"
+title: "Leadership Opportunities"
 permalink: "/leadership"
 author_profile: true
 ---
