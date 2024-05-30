@@ -39,8 +39,8 @@ In another student-selected component, I led an initiative to ensure compliance 
 </figure>
 
 ## Data Science Roles
-
 #### Data Scientist for Norwich Cardiology Research Group
+
 As a data scientist for the Cardiology Research Group under *Professor Vassiliou S. Vassilios*, I play a crucial role in planning statistical analyses and designing machine learning models for deployment. This position allows me to contribute significantly to advancing cardiology research through applied data science.
 
 #### REDCap Systems Administrator
