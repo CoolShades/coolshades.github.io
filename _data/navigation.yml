@@ -6,7 +6,7 @@ main:
     url: /awards/
   - title: "Qualifications"
     url: /qualifications/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Leadership"
+    url: /leadership/
   # - title: "Sitemap"
   #   url: /sitemap/
