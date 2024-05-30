@@ -1,9 +1,20 @@
 ---
 layout: single
-title: "Leadership Opportunities"
+title: "Leadership Experience"
 permalink: "/leadership/"
 author_profile: true
 ---
+<div class="instruction-text"><i>when trust, opportunity, and competence align.</i></div>
+
+<style>
+  .instruction-text {
+  color: grey;
+  margin-top: -10px; /* Adjust the value as needed to move the text closer */
+  font-size: 0.9em; /* Slightly smaller font size */
+  display: block;
+}
+
+</style>
 
 ## Formal Training
 ### Singapore Armed Forces; Officer Cadet School (OCS) 
@@ -28,10 +39,11 @@ In another student-selected component, I led an initiative to ensure compliance 
 </figure>
 
 ## Data Science Roles
-### Data Scientist for Norwich Cardiology Research Group
+
+#### Data Scientist for Norwich Cardiology Research Group
 As a data scientist for the Cardiology Research Group under *Professor Vassiliou S. Vassilios*, I play a crucial role in planning statistical analyses and designing machine learning models for deployment. This position allows me to contribute significantly to advancing cardiology research through applied data science.
 
-### REDCap Systems Administrator
+#### REDCap Systems Administrator
 I led the procurement and deployment of resources to host REDCap for the Norwich Cardiology Research Group. Being able to manage such a platform requires significant data engineering skills. I utilised Amazon Cloud Services to establish a robust platform for the research team.
 
 ## BMA Leadership Roles
@@ -48,6 +60,7 @@ Doctors pay was worsening year by year. Only a national co-ordinated effort coul
     <img src="/assets/images/example2.jpg" alt="Doctors Vote Campaign Example 2">
 </figure>
 
+#### Creating a Novel Calculator with Python
 I realised that doctor's pay is extremely complex. Within DoctorsVote, I saw an opportunity to lead a team of technically skilled doctors to develop a much needed [pay calculator](https://pay.doctorsvote.app/). It was developed and rigourously tested over months. It is currently in use nationally and remains to be the gold standard for Junior Doctor pay verification.
 
 <figure>
