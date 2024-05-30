@@ -19,7 +19,7 @@ As part of a student-selected component, I led a dedicated team to design, illus
     <img src="/assets/images/ecgbook.png" alt="ECG Book Cover">
 </figure>
 
-### Enforcing Twice Daily Consultant Led Ward Rounds in HDU
+### Enabling Twice Daily Consultant-Led Ward Rounds in a Medical High Dependency Unit
 
 In another student-selected component, I led an initiative to ensure compliance with the mandated twice-daily consultant ward rounds. By redesigning the daily ward round sheet and collaborating with hospital officials, we integrated our form into the hospital's system, ensuring sustainable change and improved patient care. This work later attracted the Kevin Murphy Prize for Enhancing Patient Safety through Quality Improvement. This annual prize is given to the best quality improvement project throughout NHS Tayside.
 
