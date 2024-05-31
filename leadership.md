@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Leadership Experience"
+title: "Leadership/Management Experience"
 permalink: "/leadership/"
 author_profile: true
 ---
@@ -23,7 +23,16 @@ Singapore conscripts all men to serve for 2 years in the Armed Forces. After Bas
     <img src="/assets/images/army2.jpeg" alt="Army Image">
 </figure>
 
-## Medical School Projects
+## Notable Projects
+### Rolling out E-Prescribing at Ninewells Hospital
+During my academic foundation program, I was part of the local Electronic Prescribing Subcommittee at Ninewells Hospital, which managed the rollout of electronic prescribing systems within NHS Tayside. Over four months on the NHS Tayside HEPMA Committee, I led a subcommittee to evaluate a new medications reconciliation module.
+
+Our team assessed the current infrastructure, including the number of computers per ward and the inventory needed to support electronic prescribing. We conducted interviews with various stakeholders and developed protocols to ensure patient care continuity during system downtimes.
+
+<figure>
+    <img src="/assets/images/hepma.png" alt="Electronic Prescribing System">
+</figure>
+
 ### Basics of the ECG iBook Publication
 As part of a student-selected component, I led a dedicated team to design, illustrate, vet, and publish an interactive iBook titled "Basics of the ECG." This resource, which has been downloaded over 5000 times on the [Apple iBooks Store](https://books.apple.com/gb/book/basics-of-the-ecg/id1118593363), remains a useful tool for medical students and young doctors to understand ECGs.
 <figure>
