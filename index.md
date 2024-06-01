@@ -1,11 +1,9 @@
 ---
 layout: single
-
 author_profile: true
 ---
 
 # Welcome to My Professional Portfolio
-
 Hello and welcome! I'm delighted you're here to learn more about my professional journey and accomplishments. Whether you're a recruiter, a potential collaborator, or simply curious about my work, you'll find a wealth of information about my research, teaching, and professional experiences. If you have any questions, please don't hesitate to reach out.
 
 ### About Me
