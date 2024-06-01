@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Leadership/Management Experience"
+title: "Leadership Experience"
 permalink: "/leadership/"
 author_profile: true
 ---
@@ -79,7 +79,7 @@ I realised that doctor's pay is extremely complex. Within DoctorsVote, I saw an 
 </figure>
 
 #### National Leadership and Advocacy
-Today, I am privileged to serve on the BMA UK Junior Doctors Committee (UKJDC) and several other subcommittees, including the Joint Academic Trainees Subcommittee. It is an honor to have the opportunity to influence policies that impact every junior doctor in England. Beyond addressing the ongoing pay dispute, we have spearheaded significant work in defining the scope for physician associates. Furthermore, our committee was the first to propose transitioning from the term "Junior Doctor" to "Resident Doctor."
+Today, I am privileged to serve on the BMA UK Junior Doctors Committee (UKJDC) and several other subcommittees, including the Joint Academic Trainees Subcommittee. I was fortunate enought to also undergo the intensive media training program the BMA had to offer. It is an honor to have the opportunity to influence policies that impact every junior doctor in England. Beyond addressing the ongoing pay dispute, we have spearheaded significant work in defining the scope for physician associates. Furthermore, our committee was the first to propose transitioning from the term "Junior Doctor" to "Resident Doctor."
 
 <figure>
     <img src="/assets/images/BMA.png" alt="BMA Logo">
