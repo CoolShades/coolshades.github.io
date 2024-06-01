@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Publications"
-    url: /publications/
-  - title: "Awards"
-    url: /awards/
   - title: "Qualifications"
     url: /qualifications/
+  - title: "Awards"
+    url: /awards/
+  - title: "Publications"
+    url: /publications/
   - title: "Leadership"
     url: /leadership/
   - title: "Teaching"
