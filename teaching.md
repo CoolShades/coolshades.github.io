@@ -4,7 +4,7 @@ title: "Teaching Experience"
 permalink: "/teaching/"
 author_profile: true
 ---
-<div class="instruction-text"><i>I have a formal postgraduate certification in medical education from the University of Dundee. Over the years, I have developed and led various educational programs and initiatives to support medical students and resident doctors in their training. Below are some highlights of my teaching experience:</i></div>
+<div class="instruction-text"><i>I have a formal postgraduate certification in medical education. Over the years, I have developed and led various educational programs and initiatives to support medical students and resident doctors in their training. Below are some highlights of my teaching experience:</i></div>
 
 <style>
   .instruction-text {

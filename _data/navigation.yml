@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Home"
+    url: /
   - title: "Qualifications"
     url: /qualifications/
   - title: "Awards"
@@ -10,3 +12,5 @@ main:
     url: /leadership/
   - title: "Teaching"
     url: /teaching/
+  - title: Blog
+    url: /blog/
