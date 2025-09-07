@@ -107,7 +107,7 @@ author_profile: true
     <div class="title">University of Dundee</div>
     <div class="pgc">Post Graduate Certification in</div>
     <div class="degree1">Medical Education</div>
-    <div class="details">PGCert(MedEd), 2018-2020</div>
+    <div class="details">PGCert(MedEd), Merit, 2018-2020</div>
   </div>
 </div>
 
@@ -119,7 +119,7 @@ author_profile: true
     <div class="title">University of Edinburgh</div>
     <div class="pgc">Post Graduate Certification in</div>
     <div class="degree1">Data Science, Technology and Innovation</div>
-    <div class="details">PGCert(Data Sci.), 2023-2025</div>
+    <div class="details">PGCert(Data Sci.), Distinction, 2023-2025</div>
   </div>
 </div>
 
