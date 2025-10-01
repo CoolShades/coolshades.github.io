@@ -56,6 +56,10 @@ As a data scientist for the Cardiology Research Group under *Professor Vassiliou
 I led the procurement and deployment of resources to host REDCap for the Norwich Cardiology Research Group. Being able to manage such a platform requires significant data engineering skills. I utilised Amazon Cloud Services to establish a robust platform for the research team.
 
 ## BMA Leadership Roles
+<figure>
+    <img src="/assets/images/BMA.png" alt="BMA Logo">
+</figure>
+
 #### Journey to National Leadership
 
 My journey in leadership began with my election to the North of Scotland Local Negotiating Committee for Junior Doctors (LNCJDS) in 2021. During my tenure, I collaborated with staff to address discrepancies in work schedules and pay, achieving a 50% pay uplift for doctors in a particular rotation. This experience honed my skills in negotiation and advocacy, preparing me for more significant challenges ahead.
@@ -86,7 +90,3 @@ I served on the BMA UK Junior Doctors Committee (UKJDC) and several subcommittee
 In October 2024, I was elected Deputy Co-chair of the UK Resident Doctors Committee with the portfolio of Terms and Conditions of Service and Negotiations (TCSN). As the second highest office holder in the resident doctor branch of practice of the BMA, I led high-stakes negotiations with the Department of Health and Social Care and NHS Employers to agree the [latest version of the Resident Doctor Contract](https://www.nhsemployers.org/articles/exception-reporting-reform-update), which delivers on the exception reporting reforms previously agreed by government officials, ready for full implementation in Feburary 2026.
 
 As part of this role, I underwent media training and hostile media training by the BMA to navigate the intense media cycles during the strike action we called in response to inadequate pay offers for doctors across the country. I also championed the agenda for UK graduate prioritisation in specialty recruitment, laying the groundwork for my successors to fully implement this policy for all doctors in the UK.
-
-<figure>
-    <img src="/assets/images/BMA.png" alt="BMA Logo">
-</figure>
