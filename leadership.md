@@ -62,7 +62,7 @@ My journey in leadership began with my election to the North of Scotland Local N
 
 #### Organising for Change with DoctorsVote
 
-Doctors pay was worsening year by year. Only a national co-ordinated effort could bring about the change we needed. I sought out and joined a grassroots organisation called DoctorsVote. A group focussed on full pay restoraton. Here, we laid down the groundwork required to bring this issue to the minds of doctors. I designed several infographics that played a significant role in bringing the issue to the forefront. Once the issue was sufficiently exposed, we made our collective bid for the BMA National Seats. DoctorsVote candidates managed to secure all but one seat at the National Assembly.
+Doctors' pay was worsening year by year. Only a national co-ordinated effort could bring about the change we needed. I sought out and joined a grassroots organisation called DoctorsVote, a group focused on full pay restoration. Here, we laid down the groundwork required to bring this issue to the minds of doctors. I designed several infographics that played a significant role in bringing the issue to the forefront. Once the issue was sufficiently exposed, we made our collective bid for the BMA National UKJDC Seats. DoctorsVote candidates managed to secure all but one seat at the National Assembly.
 
 <figure class="half">
     <img src="/assets/images/example1.jpg" alt="Doctors Vote Campaign Example 1">
@@ -70,7 +70,7 @@ Doctors pay was worsening year by year. Only a national co-ordinated effort coul
 </figure>
 
 #### Creating a Novel Calculator with Python
-I realised that doctor's pay is extremely complex. Within DoctorsVote, I saw an opportunity to lead a team of technically skilled doctors to develop a much needed [pay calculator](https://pay.doctorsvote.app/). It was developed and rigourously tested over months. It is currently in use nationally and remains to be the gold standard for Junior Doctor pay verification.
+I realised that doctors' pay is extremely complex. Within DoctorsVote, I saw an opportunity to lead a team of technically skilled doctors to develop a much-needed [pay calculator](https://pay.doctorsvote.app/). It was developed and rigorously tested over months. It is currently in use nationally and remains the gold standard for resident doctor pay verification.
 
 <figure>
     <a href="https://pay.doctorsvote.app/" target="_blank">
@@ -79,7 +79,13 @@ I realised that doctor's pay is extremely complex. Within DoctorsVote, I saw an 
 </figure>
 
 #### National Leadership and Advocacy
-Today, I am privileged to serve on the BMA UK Junior Doctors Committee (UKJDC) and several other subcommittees, including the Joint Academic Trainees Subcommittee. I was fortunate enought to also undergo the intensive media training program the BMA had to offer. It is an honor to have the opportunity to influence policies that impact every junior doctor in England. Beyond addressing the ongoing pay dispute, we have spearheaded significant work in defining the scope for physician associates. Furthermore, our committee was the first to propose transitioning from the term "Junior Doctor" to "Resident Doctor."
+I served on the BMA UK Junior Doctors Committee (UKJDC) and several subcommittees, including the Joint Academic Trainees Subcommittee. It was an honour to have the opportunity to influence policies that impact every junior doctor in England. Beyond addressing the ongoing pay dispute, we spearheaded significant work in defining the scope for physician associates. Furthermore, our committee was the first to propose transitioning from the term "Junior Doctor" to "Resident Doctor".
+
+#### Deputy Co-chair: High-Stakes Negotiations and Contract Reform
+
+In October 2024, I was elected Deputy Co-chair of the UK Resident Doctors Committee with the portfolio of Terms and Conditions of Service and Negotiations (TCSN). As the second highest office holder in the resident doctor branch of practice of the BMA, I led high-stakes negotiations with the Department of Health and Social Care and NHS Employers to agree the [latest version of the Resident Doctor Contract](https://www.nhsemployers.org/articles/exception-reporting-reform-update), which delivers on the exception reporting reforms previously agreed by government officials, ready for full implementation in Feburary 2026.
+
+As part of this role, I underwent media training and hostile media training by the BMA to navigate the intense media cycles during the strike action we called in response to inadequate pay offers for doctors across the country. I also championed the agenda for UK graduate prioritisation in specialty recruitment, laying the groundwork for my successors to fully implement this policy for all doctors in the UK.
 
 <figure>
     <img src="/assets/images/BMA.png" alt="BMA Logo">
