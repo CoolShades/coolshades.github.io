@@ -85,8 +85,8 @@ I realised that doctors' pay is extremely complex. Within DoctorsVote, I saw an 
 #### National Leadership and Advocacy
 I served on the BMA UK Junior Doctors Committee (UKJDC) and several subcommittees, including the Joint Academic Trainees Subcommittee. It was an honour to have the opportunity to influence policies that impact every junior doctor in England. Beyond addressing the ongoing pay dispute, we spearheaded significant work in defining the scope for physician associates. Furthermore, our committee was the first to propose transitioning from the term "Junior Doctor" to "Resident Doctor".
 
-#### Deputy Co-chair: High-Stakes Negotiations and Contract Reform
+#### National Negotiations and Contract Reform
 
 In October 2024, I was elected Deputy Co-chair of the UK Resident Doctors Committee with the portfolio of Terms and Conditions of Service and Negotiations (TCSN). As the second highest office holder in the resident doctor branch of practice of the BMA, I led high-stakes negotiations with the Department of Health and Social Care and NHS Employers to agree the [latest version of the Resident Doctor Contract](https://www.nhsemployers.org/articles/exception-reporting-reform-update), which delivers on the exception reporting reforms previously agreed by government officials, ready for full implementation in Feburary 2026.
 
-As part of this role, I underwent media training and hostile media training by the BMA to navigate the intense media cycles during the strike action we called in response to inadequate pay offers for doctors across the country. I also championed the agenda for UK graduate prioritisation in specialty recruitment, laying the groundwork for my successors to fully implement this policy for all doctors in the UK.
+As part of this role, I underwent media training and hostile media training by the BMA to navigate the intense media cycles during the strike action we called in response to inadequate pay offers for doctors across the country. We also championed the agenda for UK graduate prioritisation in specialty recruitment, laying the groundwork for our successors to fully implement this policy for all doctors in the UK.
