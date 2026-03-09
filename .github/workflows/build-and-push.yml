@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/ubhalraam-website
+  IMAGE_NAME: coolshades/ubhalraam-website
 
 jobs:
   build-and-push:
