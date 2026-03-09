@@ -27,7 +27,7 @@ COPY . .
 
 # Run the publications updater script
 # Use || true so build doesn't fail if Google Scholar is temporarily unavailable
-RUN cd _python && python3 publications.py && cp publications.md ../publications.md || true
+RUN timeout 60 sh -c 'cd _python && python3 publications.py && cp publications.md ../publications.md' || echo "Publications update skipped/timed out, using existing publications.md"
 
 # Build the Jekyll site
 RUN JEKYLL_ENV=production bundle exec jekyll build --destination /site/_site
