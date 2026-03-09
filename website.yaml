@@ -1,0 +1,158 @@
+# ============================================
+# Website Deployment - ubhalraam.com
+# ============================================
+# Apply with: kubectl apply -f website.yaml
+#
+# Prerequisites:
+#   1. GitHub Actions has built and pushed the image to GHCR
+#   2. If your GHCR package is private, create the pull secret first:
+#      kubectl create secret docker-registry ghcr-cred \
+#        --namespace=services \
+#        --docker-server=ghcr.io \
+#        --docker-username=CoolShades \
+#        --docker-password=<YOUR_GITHUB_PAT> \
+#        --docker-email=u.bhalraam@gmail.com
+# ============================================
+
+---
+# Deployment: 2 replicas of the website
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: website
+  namespace: services
+  labels:
+    app: website
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: website
+  strategy:
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: website
+    spec:
+      # Uncomment the next 2 lines if your GHCR package is private
+      # imagePullSecrets:
+      #   - name: ghcr-cred
+      containers:
+        - name: nginx
+          image: ghcr.io/coolshades/ubhalraam-website:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+              protocol: TCP
+          resources:
+            requests:
+              cpu: 10m
+              memory: 32Mi
+            limits:
+              memory: 64Mi
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 10
+      # Spread pods across nodes for availability
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: kubernetes.io/hostname
+          whenUnsatisfiable: DoNotSchedule
+          labelSelector:
+            matchLabels:
+              app: website
+
+---
+# Service: LoadBalancer via MetalLB
+apiVersion: v1
+kind: Service
+metadata:
+  name: website
+  namespace: services
+  labels:
+    app: website
+spec:
+  type: LoadBalancer
+  selector:
+    app: website
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+
+---
+# ServiceAccount for the CronJob to restart the deployment
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: website-deployer
+  namespace: services
+
+---
+# Role: permission to restart deployments
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: website-deployer
+  namespace: services
+rules:
+  - apiGroups: ["apps"]
+    resources: ["deployments"]
+    verbs: ["get", "patch"]
+
+---
+# RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: website-deployer
+  namespace: services
+subjects:
+  - kind: ServiceAccount
+    name: website-deployer
+    namespace: services
+roleRef:
+  kind: Role
+  name: website-deployer
+  apiGroup: rbac.authorization.k8s.io
+
+---
+# CronJob: daily rollout restart to pull the latest image
+# (GitHub Actions rebuilds the image daily with fresh publications data)
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: website-updater
+  namespace: services
+spec:
+  schedule: "30 6 * * *"  # 06:30 UTC daily (30 min after the GH Action builds)
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          serviceAccountName: website-deployer
+          containers:
+            - name: kubectl
+              image: bitnami/kubectl:latest
+              command:
+                - kubectl
+                - rollout
+                - restart
+                - deployment/website
+                - -n
+                - services
+          restartPolicy: OnFailure
